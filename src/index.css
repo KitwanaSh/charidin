@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-dark bg-white antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold text-primary;
+  }
+}
+
+@layer components {
+  .section {
+    @apply py-16 md:py-24;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+@layer base {
+  body {
+    @apply font-sans text-dark bg-white antialiased;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold text-primary;
+  }
+}
+
+/* Smooth transitions for all interactive elements */
+@layer utilities {
+  .transition-smooth {
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+/* Fade in animation for pages */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+  outline: 2px solid #1e3a8a;
+  outline-offset: 2px;
+}
