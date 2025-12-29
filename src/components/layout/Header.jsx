@@ -26,7 +26,7 @@ export default function Header() {
               CHARIDIN INTEGRITY GROUP
             </span>
             <span className="text-xs md:text-sm text-gray-600 font-light">
-              Serving with Integrity and Dignity
+              Servir avec intégrité et dignité
             </span>
           </Link>
 
