@@ -12,7 +12,7 @@ export default function About() {
             À Propos de Nous
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-            Votre partenaire de confiance pour le procurement et la logistique en Afrique
+            Votre partenaire régional de confiance en approvisionnement et coordination logistique
           </p>
         </div>
       </Section>
@@ -26,15 +26,15 @@ export default function About() {
           
           <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
             <p>
-              <span className="font-semibold text-primary">CHARIDIN Integrity Group</span> est une entreprise orientée services, spécialisée dans le procurement, le sourcing et la coordination logistique pour les ONG, les institutions gouvernementales et les clients du secteur privé.
+              <span className="font-semibold text-primary">CHARIDIN Integrity Group</span> est un prestataire de services spécialisé dans l’approvisionnement et la coordination logistique, accompagnant les ONG, les institutions gouvernementales et les entreprises privées dans la mise en œuvre efficace de leurs opérations.
             </p>
             
             <p>
-              Basés à Goma, au cœur de la région des Grands Lacs, nous opérons avec une compréhension approfondie des réalités du terrain et des environnements opérationnels.
+              Basée à Goma, au cœur de la région des Grands Lacs, notre entreprise s’appuie sur une connaissance approfondie du terrain et des réalités opérationnelles locales et régionales.
             </p>
             
             <p>
-              Nous agissons comme un partenaire de confiance dans l'évaluation des besoins, l'identification des fournisseurs, la négociation, le suivi des commandes et la coordination des livraisons jusqu'au point d'utilisation final.
+            Nous intervenons comme un partenaire de confiance dans l’évaluation des besoins, l’identification et la sélection des fournisseurs, la négociation, le suivi des commandes, ainsi que la coordination des livraisons jusqu’au point final d’utilisation.
             </p>
           </div>
         </div>
