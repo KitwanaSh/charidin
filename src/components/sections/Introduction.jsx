@@ -10,15 +10,15 @@ export default function Introduction() {
         
         <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
           <p>
-            <span className="font-semibold text-primary">CHARIDIN Integrity Group</span> est une entreprise de services de procurement et de coordination logistique basée à Goma, en République Démocratique du Congo.
+            <span className="font-semibold text-primary">CHARIDIN Integrity Group</span> est un prestataire de services spécialisé dans l’approvisionnement et la coordination logistique, accompagnant les ONG, les institutions gouvernementales et les entreprises privées dans la mise en œuvre efficace de leurs opérations.
           </p>
           
           <p>
-            Nous accompagnons les ONG, les institutions gouvernementales et les entreprises privées dans leurs besoins d'approvisionnement en fournissant des solutions fiables, flexibles et adaptées aux réalités locales et régionales.
+          Basée à Goma, au cœur de la région des Grands Lacs, notre entreprise s’appuie sur une connaissance approfondie du terrain et des réalités opérationnelles locales et régionales.
           </p>
           
           <p>
-            Grâce à notre solide expérience de terrain et à un réseau de fournisseurs de confiance en Afrique de l'Est, Afrique Australe, Dubaï et Chine, nous facilitons l'achat, l'approvisionnement et la livraison de biens essentiels jusqu'à la destination finale.
+          Nous intervenons comme un partenaire de confiance dans l’évaluation des besoins, l’identification et la sélection des fournisseurs, la négociation, le suivi des commandes, ainsi que la coordination des livraisons jusqu’au point final d’utilisation.
           </p>
         </div>
       </div>
