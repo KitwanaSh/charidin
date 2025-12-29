@@ -5,7 +5,7 @@ import Button from '../common/Button';
 export default function ServicesOverview() {
   const services = [
     {
-      title: 'Procurement & Achats',
+      title: 'Approvisionnement & Achats',
       description: 'Achat local et régional, gestion des commandes, négociation avec les fournisseurs.',
     },
     {
@@ -29,7 +29,7 @@ export default function ServicesOverview() {
           Nos Services
         </h2>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          Des solutions complètes adaptées à vos besoins spécifiques
+          Des solutions complètes d’approvisionnement et de coordination logistique adaptées à vos besoins
         </p>
       </div>
 

@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 export default function Services() {
   const services = [
     {
-      category: 'Procurement & Achats',
-      description: 'Solutions complètes d\'approvisionnement adaptées à vos besoins spécifiques.',
+      category: 'Approvisionnement & Achats',
+      description: 'Des solutions complètes d’approvisionnement adaptées à vos besoins spécifiques :',
       items: [
-        'Achat local et régional',
+        'Achats locaux et régionaux',
         'Gestion des commandes de bout en bout',
         'Négociation avec les fournisseurs',
         'Évaluation et sélection de fournisseurs',
@@ -16,19 +16,19 @@ export default function Services() {
       ],
     },
     {
-      category: 'Sourcing International & Régional',
-      description: 'Accès à un réseau mondial de fournisseurs de confiance.',
+      category: 'Approvisionnement international et régional',
+      description: 'Un accès à un réseau fiable de fournisseurs internationaux et régionaux:',
       items: [
         'Sourcing depuis Dubaï et la Chine',
         'Approvisionnement à travers l\'Afrique de l\'Est et Australe',
         'Contrôle qualité de base',
         'Vérification de la conformité des produits',
-        'Documentation et certification',
+        'Gestion de la documentation et des certifications',
       ],
     },
     {
       category: 'Coordination Logistique',
-      description: 'Gestion efficace de la chaîne d\'approvisionnement du début à la fin.',
+      description: 'Gestion efficace de la chaîne d\'approvisionnement du départ à la fin.',
       items: [
         'Coordination du transport local et régional',
         'Suivi et traçabilité des livraisons',
@@ -38,10 +38,10 @@ export default function Services() {
       ],
     },
     {
-      category: 'Support Institutionnel & Corporate',
+      category: 'Appui institutionnel et aux entreprises',
       description: 'Services personnalisés pour organisations et entreprises.',
       items: [
-        'Support opérationnel pour ONG',
+        'Appui opérationnel aux ONG',
         'Services aux institutions gouvernementales',
         'Solutions pour entreprises privées',
         'Gestion de projets d\'approvisionnement',
@@ -59,7 +59,7 @@ export default function Services() {
             Nos Services
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-            Des solutions complètes de procurement et logistique adaptées à vos besoins
+          Des solutions complètes d’approvisionnement et de coordination logistique adaptées à vos besoins
           </p>
         </div>
       </Section>
@@ -71,7 +71,7 @@ export default function Services() {
             Ce Que Nous Offrons
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            Chez CHARIDIN Integrity Group, nous offrons une gamme complète de services conçus pour répondre aux besoins diversifiés de nos clients dans les secteurs humanitaire, institutionnel et commercial.
+            Chez CHARIDIN Integrity Group, nous proposons une gamme complète de services d’approvisionnement et de logistique, conçus pour répondre aux besoins des organisations humanitaires, des institutions gouvernementales et des entreprises privées
           </p>
         </div>
 
@@ -125,12 +125,12 @@ export default function Services() {
               {
                 step: '02',
                 title: 'Identification & Négociation',
-                description: 'Sélection des meilleurs fournisseurs et négociation des conditions optimales.',
+                description: 'Sélection des fournisseurs et négociation des meilleures conditions.',
               },
               {
                 step: '03',
                 title: 'Contrôle Qualité & Documentation',
-                description: 'Vérification de la conformité et préparation de toute la documentation nécessaire.',
+                description: 'Vérification de la conformité et préparation de la documentation requise.',
               },
               {
                 step: '04',
@@ -168,7 +168,7 @@ export default function Services() {
             Besoin de Nos Services ?
           </h2>
           <p className="text-xl mb-8 text-blue-100">
-            Contactez-nous pour discuter de vos besoins spécifiques en procurement et logistique.
+          Contactez-nous pour discuter de vos besoins en approvisionnement et logistique.
           </p>
           <Link to="/contact">
             <Button variant="outline" className="bg-white text-primary hover:bg-gray-100 border-white w-full sm:w-auto">
